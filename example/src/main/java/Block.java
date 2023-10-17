@@ -1,6 +1,11 @@
+import lombok.Getter;
+import lombok.Setter;
+
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 
+@Getter
+@Setter
 public class Block {
     private String hash;
     private String previousHash;
